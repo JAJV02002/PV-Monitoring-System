@@ -31,4 +31,4 @@ The same request handler serves browser operations. Browser POST requests use a 
 
 Models extend the `DB` class, which connects through `mysqli`. The web application keeps its PHP views, CSS and JavaScript under `resources/`. The front controller in `index.php` chooses Spanish or English views according to the URL prefix.
 
-The archive contains query and model code, but no authoritative database definition. The tables and columns documented in [database requirements](../software/webapp/database/README.md) are observations from the source, not a replacement schema.
+I describe the tables and columns used by the application in [database requirements](../software/webapp/database/README.md). A standalone database schema is not yet published; that inventory does not define the column types, constraints and indexes needed for deployment.

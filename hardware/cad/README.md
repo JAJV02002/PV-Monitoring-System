@@ -1,6 +1,6 @@
 # Enclosure
 
-The supplied STL meshes are preserved without geometry changes:
+I include the enclosure as two STL files so you can inspect and print the base and lid:
 
 - [base_carcasaTarjetaMonitorFV.STL](base_carcasaTarjetaMonitorFV.STL): enclosure base.
 - [tapa_carcasaTarjetaMonitorFV-4.STL](tapa_carcasaTarjetaMonitorFV-4.STL): enclosure lid.

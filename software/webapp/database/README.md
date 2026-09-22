@@ -1,6 +1,6 @@
 # Database requirements
 
-No SQL schema or migration files were included with the web application. Obtain the original schema before attempting to deploy this version. Do not publish a production dump containing accounts, password hashes, session tokens or measurement records.
+I have not yet published a standalone SQL schema or migrations. The table inventory below describes the database structure referenced by my application and helps you identify what is needed for deployment. Keep accounts, password hashes, session tokens and measurement records out of any shared database export.
 
 The source references the following tables:
 
@@ -16,4 +16,4 @@ The source references the following tables:
 
 This inventory is not an authoritative schema. Column types, indexes, relationships, defaults and constraints must be checked against the original database. Some older query paths also use `usuarios` and `lectura`; reconcile those names before deployment.
 
-When the original structure is available, add a reviewed, structure-only `schema.sql` here. Keep real data and credentials outside the repository.
+Use a compatible, structure-only schema when setting up your database. Keep real data and credentials outside the repository.

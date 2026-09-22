@@ -1,6 +1,6 @@
 # PV Monitoring System
 
-An ESP32 measurement system and PHP/MySQL monitoring platform developed for a bachelor’s thesis on photovoltaic monitoring. The project brings together embedded acquisition, wireless telemetry, and a bilingual web interface for viewing electrical measurements.
+I developed this photovoltaic monitoring system for my bachelor’s thesis. I use an ESP32 for electrical measurements and a PHP/MySQL application for wireless telemetry, data storage and a bilingual web dashboard. I share the hardware, firmware and setup instructions here so you can recreate the system and adapt it to your installation.
 
 ## Overview
 
@@ -29,7 +29,7 @@ The included firmware processes offset-corrected waveforms. It should not be int
 
 ```text
 hardware/
-├── bom/                 Excel workbook and PCB BOM export
+├── bom/                 Excel bill of materials
 ├── cad/                 Enclosure base and lid STL files
 └── pcb/
     ├── kicad/          KiCad schematic and board layout
@@ -87,8 +87,8 @@ Local credentials, database dumps and build output are excluded by `.gitignore`.
 
 ## Project scope
 
-This repository preserves a research prototype. The supplied code includes authentication, device registration, measurement-point management, historical queries and dashboard views; these are source-level capabilities, not a claim of a fully tested deployment. Measurement accuracy, supported electrical ranges and hardware safety ratings are not established by the source files alone.
+I developed the system as a research prototype. The application includes authentication, device registration, measurement-point management, historical queries and dashboard views. When recreating it, verify the calibration, electrical ranges and installation requirements against your hardware before collecting measurements.
 
 ## License
 
-The web application retains its existing [GNU GPL version 3 license](software/webapp/LICENSE). Bundled libraries retain their own notices. No additional license is assigned here to the firmware, hardware or documentation; those terms remain to be specified by their rights holders.
+I distribute the web application under its existing [GNU GPL version 3 license](software/webapp/LICENSE). Third-party libraries retain their own notices. Separate licensing terms for the firmware, hardware and documentation are not yet specified.
