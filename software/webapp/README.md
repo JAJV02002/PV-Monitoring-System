@@ -39,8 +39,6 @@ Point the virtual host document root to this `software/webapp` directory, not to
 
 Enable the rewrite rules and the included access restrictions, then configure HTTPS. Import the original schema into your database once it is available, and enter that database's credentials in the local configuration. The application timezone is currently `America/Mexico_City`, as in the supplied code.
 
-Before use, resolve the source inconsistencies listed in [project status](../../docs/project-status.md), including view paths, inline scripts under the existing content-security policy, and database naming.
-
 ## Devices and measurements
 
 The ESP32 posts to `/app/app.php` with `_np=1` and the shared device key. A previously unseen chip ID creates a device record. Assign the device to a measurement point before expecting readings to be recorded. Once a point is associated with the device, the ingestion path maps the submitted voltage, current, power and energy to the readings model.
@@ -56,7 +54,7 @@ See [architecture and field mapping](../../docs/architecture.md) for the protoco
 - Added Apache access restrictions for configuration and private artifacts.
 - Removed `.DS_Store` and the temporary debug PHP script.
 
-The broader authentication, SQL-query and dashboard implementation is preserved. This cleanup does not constitute a complete application security audit or deployment test. Known source issues are documented in [project status](../../docs/project-status.md).
+The broader authentication, SQL-query and dashboard implementation is preserved. This cleanup does not constitute a complete application security audit or deployment test.
 
 ## License
 

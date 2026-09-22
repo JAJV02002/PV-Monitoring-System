@@ -29,9 +29,12 @@ The included firmware processes offset-corrected waveforms. It should not be int
 
 ```text
 hardware/
-├── bom/                 Bill of materials documentation
-├── cad/                 Mechanical design documentation
-└── pcb/kicad/           PCB design documentation
+├── bom/                 Excel workbook and PCB BOM export
+├── cad/                 Enclosure base and lid STL files
+└── pcb/
+    ├── kicad/          KiCad schematic and board layout
+    ├── gerber/         Gerber and drill archive
+    └── 3d/             PCB assembly STEP archive
 software/
 ├── firmware/
 │   ├── src/main.cpp     ESP32 firmware
@@ -42,7 +45,7 @@ software/
     ├── resources/      Views, styles and JavaScript
     ├── index.php       Web entry point
     └── .htaccess       Apache configuration
-docs/                   Architecture and project limitations
+docs/                   Architecture and setup documentation
 ```
 
 ## Included software
@@ -61,7 +64,7 @@ Power is calculated as `Vrms × Irms` (apparent power). The accumulated energy e
 
 ## Getting started
 
-1. Review the [available files and limitations](docs/project-status.md). The original database schema, BOM, CAD and KiCad design files are not included in this release.
+1. Review the [hardware files](hardware/README.md): BOM tables, KiCad design, manufacturing outputs and enclosure meshes.
 2. Configure the [PHP web application](software/webapp/README.md) with your own database and device key. A compatible database schema is required before the application can be used.
 3. Copy `software/firmware/include/secrets.example.h` to `software/firmware/include/secrets.h`, then set your Wi-Fi credentials, server endpoint and matching device key.
 4. From `software/firmware`, build and upload with PlatformIO:
@@ -80,7 +83,6 @@ Local credentials, database dumps and build output are excluded by `.gitignore`.
 - [Firmware configuration and measurement procedure](software/firmware/README.md)
 - [Web application configuration](software/webapp/README.md)
 - [Database requirements](software/webapp/database/README.md)
-- [Project status and known limitations](docs/project-status.md)
 - [Hardware files](hardware/README.md)
 
 ## Project scope

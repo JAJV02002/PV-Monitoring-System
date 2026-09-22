@@ -1,9 +1,13 @@
 # Hardware
 
-The repository reserves the original project structure for:
+The hardware files cover the monitoring PCB, enclosure and component lists.
 
-- [Bill of materials](bom/README.md)
-- [Mechanical design files](cad/README.md)
-- [KiCad PCB designs](pcb/kicad/README.md)
+| Directory | Contents |
+| --- | --- |
+| [bom](bom/README.md) | Excel component and cost tables, plus the PCB-exported BOM |
+| [cad](cad/README.md) | STL files for the enclosure base and lid |
+| [pcb/kicad](pcb/kicad/README.md) | Editable KiCad project, schematic and board layout |
+| [pcb/gerber](pcb/gerber/README.md) | Gerber layers and drill files in a manufacturing archive |
+| [pcb/3d](pcb/3d/README.md) | STEP export of the PCB assembly |
 
-These hardware source files were not included with the available software package. Sensor models, component quantities, electrical ranges, enclosure dimensions and PCB specifications are therefore not asserted here.
+The supplied Gerber job describes a two-layer, 1.6 mm board. Component names and values should be read from the relevant BOM and design revision.

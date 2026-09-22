@@ -1,3 +1,8 @@
-# Mechanical design
+# Enclosure
 
-Add the original editable CAD files and manufacturing exports here when available. No enclosure models or dimensional drawings were included with the supplied software files.
+The supplied STL meshes are preserved without geometry changes:
+
+- [base_carcasaTarjetaMonitorFV.STL](base_carcasaTarjetaMonitorFV.STL): enclosure base.
+- [tapa_carcasaTarjetaMonitorFV-4.STL](tapa_carcasaTarjetaMonitorFV-4.STL): enclosure lid.
+
+Open the files in a CAD viewer or slicer to inspect the assembly and prepare printing. STL files do not encode units; confirm scale and fit against the PCB before printing.
