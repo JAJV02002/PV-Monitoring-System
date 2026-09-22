@@ -1,0 +1,43 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+secrets.h
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating systems and editors
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build output and dependencies
+.pio/
+.pioenvs/
+.piolibdeps/
+__pycache__/
+
+# Private data and temporary files
+*.log
+*.tmp
+*.bak
+*.bck
+*.sql
+!schema.sql
+!migrations/*.sql
+tmp_debug*.php
+debug*.php
+uploads/
+sessions/
+
+# KiCad local state
+*-backups/
+_autosave-*
+*.kicad_prl
+~*.lck
