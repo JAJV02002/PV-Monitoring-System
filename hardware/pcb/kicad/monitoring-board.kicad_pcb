@@ -294,7 +294,7 @@
 		)
 		(path "/74f311ea-8b7d-4c55-b174-c5e4bf9be413")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -13.97 23.13)
@@ -1235,7 +1235,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/df3d9e48-7533-4629-af95-4e5fbefd4987")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.8 4.16)
@@ -1822,7 +1822,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/899a64c7-6c61-46d0-ab24-966a17f7aaa0")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -0.825)
@@ -2041,7 +2041,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/c5f9720e-a0ee-464f-9778-981ea529be18")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -0.825)
@@ -2262,7 +2262,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a6c480d-3bf2-4eb0-88ad-67b69ed9bb0c")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -2474,7 +2474,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8de01b69-30f5-47fb-b54b-89e9cbb2f375")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.688)
@@ -2737,7 +2737,7 @@
 		)
 		(path "/172906b9-8f7f-45f2-8b3a-0d80bbcc577e")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.81 6.2)
@@ -3114,7 +3114,7 @@
 		(property ki_fp_filters "HXS 20-NP/SP30_LEM")
 		(path "/6edcdeea-cc78-4794-9fd8-4e80fac3b083")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center -6.2992 0)
@@ -3493,7 +3493,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c80228-9e4d-4ee5-842c-582b28798643")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.688)
@@ -3692,7 +3692,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6f06393e-3640-4777-97d4-cfe9d25f2763")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.525)
@@ -3893,7 +3893,7 @@
 		(property ki_fp_filters "LED*1206*3216Metric*")
 		(path "/0c9030b8-51f9-4107-a2c7-5482a311fd34")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -1.135)
@@ -4127,7 +4127,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ecf047ed-0337-49a7-ac3d-d28591a17197")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -4327,7 +4327,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1e410bf5-fb53-43fc-813f-71a0b62c670d")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.35 0)
@@ -4529,7 +4529,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a9e38674-4507-4d30-baee-a52f1f0b346f")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 14.89 -2.97)
@@ -4803,7 +4803,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b74d6904-d7fe-4276-8512-f020659beedb")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -6584,7 +6584,7 @@
 		)
 		(path "/9138b40a-4208-4af2-84d2-99059f4d6666")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -6797,7 +6797,7 @@
 		)
 		(path "/2541f23b-6056-4e3f-86d2-334cefe5ab37")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -6946,7 +6946,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/2473895f-14e9-4411-9af3-8de542df6b53")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.075 2.15)
@@ -17813,7 +17813,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5815e86a-3cee-4be6-8f57-d0835e8aa938")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.35 2.97)
@@ -18087,7 +18087,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/528dc584-c20d-41c1-84d5-976df0d2626f")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -0.825)
@@ -18306,7 +18306,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/08efbff7-27fd-40f7-b39b-e50bed3d4871")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -0.825)
@@ -18527,7 +18527,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fe564360-f1ed-4e24-9c2f-1fc789b032ab")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 14.89 -2.97)
@@ -18801,7 +18801,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2fa318da-5d0e-413e-9045-2a246a7f47c1")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -19064,7 +19064,7 @@
 		)
 		(path "/d0faaba6-2845-418c-a704-025d56f396d0")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -19277,7 +19277,7 @@
 		)
 		(path "/2053bbf7-9e8d-482e-8a58-b62f492392f3")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 2.45)
@@ -19594,7 +19594,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aa261ec6-b7c9-4ebf-864f-e2e2bd8233ad")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -19793,7 +19793,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2770014c-927f-45a6-a920-5072e4f02df0")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -19993,7 +19993,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7ce8a8ce-24bb-4abe-a28e-bfab40bb5d32")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.75 0)
@@ -20346,7 +20346,7 @@
 		)
 		(path "/30c78b5a-d74f-43ae-96ad-f9e1ce900878")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.27 2.54)
@@ -20624,7 +20624,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/37d261c8-53e5-4585-a1b8-29056eb0510b")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -0.825)
@@ -20843,7 +20843,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/02ff1eb3-c2c3-4446-a7b6-879e4517fdde")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -21043,7 +21043,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/dbf36c4f-9482-494d-b56f-e628e1a297fe")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 0.825)
@@ -21327,7 +21327,7 @@
 		)
 		(path "/ff35f6fa-200d-4d61-90c6-7b1d92cb5e41")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -21476,7 +21476,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2eae9d86-0d12-4e53-8d1a-add252d34823")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.35 0)
@@ -21676,7 +21676,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/932ab75f-d9c6-46b2-8e9a-be0384ee9e1d")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -21940,7 +21940,7 @@
 		)
 		(path "/544b260d-2363-43a0-a7c4-a2eaef6c158a")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -22091,7 +22091,7 @@
 		(property ki_fp_filters "LED*1206*3216Metric*")
 		(path "/809f4b80-a50e-47a8-b07b-98e4a3db032d")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -1.135)
@@ -22389,7 +22389,7 @@
 		)
 		(path "/a2dcd597-3bab-4926-b314-c114eddc89a8")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -22538,7 +22538,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/56654269-3c90-4d51-a70a-e29cd5ce909c")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.075 2.15)
@@ -22831,7 +22831,7 @@
 		)
 		(path "/74be778a-3443-4a03-84d3-ad8006259522")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.475 -2.58)
@@ -23200,7 +23200,7 @@
 		)
 		(path "/757b553c-0e11-44de-83fe-c83bf0b246d5")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -23349,7 +23349,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9a3e6319-a10f-48ad-b544-b5d859d7aa9f")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -23549,7 +23549,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dd637c6b-d141-4992-b396-fa1724aeb47d")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.35 0)
@@ -23813,7 +23813,7 @@
 		)
 		(path "/84a7e689-4e34-48eb-accb-ddebef776e82")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 16.15 4.73)
@@ -24085,7 +24085,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cfbe6d22-2a4f-429f-a25d-a8625c920491")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.35 1.37)
@@ -24361,7 +24361,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/08d7ea61-bd0c-41d6-993e-752ddcbf7e6e")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.35 2.97)
@@ -24637,7 +24637,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d853eb81-08e9-46b4-ba08-05432370580d")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -24849,7 +24849,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c941d71e-728d-4bc4-a514-9df47860691c")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.44 0.85)
@@ -25102,7 +25102,7 @@
 		)
 		(path "/6c8767ee-346b-40c7-9b22-ddb4bcc79172")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -25251,7 +25251,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6a385412-dc50-4eab-9126-aa1e7c356efe")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -25515,7 +25515,7 @@
 		)
 		(path "/6f5aa566-1779-4809-8647-3e4be6db06e4")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -25728,7 +25728,7 @@
 		)
 		(path "/97ba0b98-f960-46ae-8378-52184bd14708")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -25942,7 +25942,7 @@
 		)
 		(path "/72b53dbe-e820-427c-a2b4-caab5942691a")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -26091,7 +26091,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bb5ea739-7746-4bb2-868e-49796c9f3546")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.35 0)
@@ -26291,7 +26291,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae2b3d17-ffa3-4fd0-89ce-ab89a73bd746")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -26490,7 +26490,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7f1d40a2-8cc3-4ec5-a0b1-2715cdf53feb")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.375 0)
@@ -26754,7 +26754,7 @@
 		)
 		(path "/2176047f-d6ee-4b47-8db4-3e484609e92c")
 		(sheetname "Root")
-		(sheetfile "tarjeta_SolarVista.kicad_sch")
+		(sheetfile "monitoring-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 16.15 4.73)

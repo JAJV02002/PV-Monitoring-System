@@ -1,13 +1,24 @@
-# Hardware
+# 🔧 Hardware
 
-I keep the PCB design, enclosure models and bill of materials here. Use the Excel BOM to plan component purchases, the KiCad project to inspect the circuit, and the manufacturing files and enclosure meshes to prepare fabrication.
+PCB designs, enclosure models and component information for the monitoring unit.
+
+## 📁 Files and Directories
 
 | Directory | Contents |
 | --- | --- |
 | [bom](bom/README.md) | Excel component, quantity and cost tables |
-| [cad](cad/README.md) | STL files for the enclosure base and lid |
-| [pcb/kicad](pcb/kicad/README.md) | Editable KiCad project, schematic and board layout |
-| [pcb/gerber](pcb/gerber/README.md) | Gerber layers and drill files in a manufacturing archive |
-| [pcb/3d](pcb/3d/README.md) | STEP export of the PCB assembly |
+| [cad](cad/README.md) | Enclosure base and lid STL meshes |
+| [pcb/kicad](pcb/kicad/README.md) | Editable project, schematic and board layout |
+| [pcb/gerber](pcb/gerber/README.md) | Manufacturing layers and drill files |
+| [pcb/3d](pcb/3d/README.md) | PCB assembly STEP model |
 
-My Gerber job describes a two-layer, 1.6 mm board. I use [EMON_BOM.xlsx](bom/EMON_BOM.xlsx) as the bill of materials for this repository. Check component footprints and the intended board revision before assembly.
+## 🚀 Build Preparation
+
+1. Use [bill-of-materials.xlsx](bom/bill-of-materials.xlsx) to plan component purchases.
+2. Open the KiCad project to inspect the schematic, footprints and board revision.
+3. Review the manufacturing outputs before placing a PCB order.
+4. Inspect the enclosure meshes and check their fit against the PCB assembly model.
+
+## 📐 Board Details
+
+The Gerber job specifies two copper layers, a 1.6 mm thickness and an approximate size of 100.4 × 70.4 mm. Check the intended revision and component compatibility before assembly.

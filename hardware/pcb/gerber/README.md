@@ -1,7 +1,25 @@
-# PCB manufacturing files
+# 🏭 PCB Manufacturing Files
 
-I keep the PCB manufacturing outputs in [Gerber_PCB_EMON.zip](Gerber_PCB_EMON.zip). The archive includes copper, silkscreen, solder-mask, solder-paste and board-outline layers, together with plated and non-plated drill files and the Gerber job file.
+[pcb-manufacturing.zip](pcb-manufacturing.zip) contains the PCB fabrication outputs.
 
-The job file identifies KiCad 8.0.4 and an export date of October 23, 2024. It specifies two copper layers, a 1.6 mm board thickness and a size of approximately 100.4 × 70.4 mm.
+## 📦 Archive Contents
 
-Extract the archive and inspect the layers and drill files in a Gerber viewer before sending them to a manufacturer. These files represent the export dated above; if you modify the KiCad board, regenerate the manufacturing outputs and check the fabrication settings before ordering.
+- Front and back copper layers.
+- Front and back silkscreen, solder-mask and solder-paste layers.
+- Board outline.
+- Plated and non-plated drill files.
+- Manufacturing job file with layer references and board specifications.
+
+## 📐 Export Details
+
+| Property | Value |
+| --- | --- |
+| Export tool | KiCad 8.0.4 |
+| Export date | October 23, 2024 |
+| Copper layers | 2 |
+| Board thickness | 1.6 mm |
+| Approximate size | 100.4 × 70.4 mm |
+
+## 🚀 Before Ordering
+
+Extract the archive and inspect all layers and drill files in a Gerber viewer. These outputs represent the export dated above. After changing the KiCad board, regenerate the manufacturing files and confirm fabrication settings before ordering.

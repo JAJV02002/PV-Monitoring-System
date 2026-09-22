@@ -51,15 +51,15 @@ function render($view, $layout = true, $data = [], $title = "Monitor FV", $lang 
 
 // Rutas protegidas con el layout principal
 $routes_with_layout = [
-    '/' => 'sections/inicio',
-    '/usuarios' => 'sections/usuarios',
-    '/matrices' => 'sections/matrices/matrices',
-    '/matriz' => 'sections/matrices/matriz',
-    '/puntos' => 'sections/matrices/matriz/puntos',
-    '/puntos/punto' => 'sections/matrices/puntos/punto',
-    '/tiempo_real' => 'sections/tiempo_real',
-    '/historico' => 'sections/historico',
-    '/perfil' => 'sections/perfil',
+    '/' => 'sections/home',
+    '/usuarios' => 'sections/users',
+    '/matrices' => 'sections/matrices',
+    '/matriz' => 'sections/matrices/matrix',
+    '/puntos' => 'sections/matrices/matrix/points',
+    '/puntos/punto' => 'sections/matrices/matrix/points/point',
+    '/tiempo_real' => 'sections/live-readings',
+    '/historico' => 'sections/history',
+    '/perfil' => 'sections/profile',
 ];
 
 // Rutas sin layout

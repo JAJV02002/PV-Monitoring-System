@@ -4,7 +4,7 @@
         if($GLOBALS['tipo'] == "Administrador general"){ 
         ?>
         <h1 class="card-title">Matrices</h1>
-    <form class="row mb-3" action="/app/app.php" method="POST" id="form-np">
+    <form class="row mb-3" action="/app/api.php" method="POST" id="form-np">
             <div class="input-group w-75">
                 <label class="form-control bg-secondary text-white">Nueva matriz</label>
                 <input type="hidden" name="_nm" value="true">

@@ -140,7 +140,7 @@
     // Load user's points into selector
     const ctx = getUserContext();
     const uid = ctx.uid || '';
-    fetch('/app/app.php?_lup&uid=' + encodeURIComponent(uid))
+    fetch('/app/api.php?_lup&uid=' + encodeURIComponent(uid))
       .then(r => r.json())
       .then(points => {
         const opts = [`<option value="">${t('selectPoint')}</option>`]
@@ -158,7 +158,7 @@
       }
       // Quick probe: if no readings found, show info modal
       const params = new URLSearchParams({ _readings: '1', pointId: pid, metrics: 'voltaje_RMS', limit: '1' });
-      fetch('/app/app.php?' + params.toString())
+      fetch('/app/api.php?' + params.toString())
         .then(r => r.json())
         .then(data => {
           const has = Array.isArray(data.timestamps) && data.timestamps.length > 0;
@@ -184,7 +184,7 @@
     // Populate points
     const ctx = getUserContext();
     const uid = ctx.uid || '';
-    fetch('/app/app.php?_lup&uid=' + encodeURIComponent(uid))
+    fetch('/app/api.php?_lup&uid=' + encodeURIComponent(uid))
       .then(r => r.json())
       .then(points => {
         const opts = [`<option value="">${t('allPoints')}</option>`]
@@ -212,7 +212,7 @@
         if(f2.value) { params.set('end', f2.value); paramsList.set('end', f2.value); }
       }
       // KPIs
-      fetch('/app/app.php?' + params.toString())
+      fetch('/app/api.php?' + params.toString())
         .then(r => r.json())
         .then(data => {
           const avg = data.avg || {};
@@ -224,7 +224,7 @@
         .catch(() => {});
 
       // Table
-      fetch('/app/app.php?' + paramsList.toString())
+      fetch('/app/api.php?' + paramsList.toString())
         .then(r => r.json())
         .then(rows => {
           let html = `
@@ -347,7 +347,7 @@
         limit: '1',
         metrics: metrics.map(m => m.key).join(',')
       });
-      const resp = await fetch('/app/app.php?' + params.toString());
+      const resp = await fetch('/app/api.php?' + params.toString());
       if(!resp.ok) throw new Error(t('readError'));
       return resp.json();
     }
@@ -390,9 +390,9 @@
       const uid = ctx.uid || '';
       const isAdmin = ctx.tipo === 'Administrador general';
       const primaryUrl = isAdmin
-        ? '/app/app.php?_lp=1'
-        : '/app/app.php?_lup&uid=' + encodeURIComponent(uid);
-      const fallbackUrl = '/app/app.php?_lp=1';
+        ? '/app/api.php?_lp=1'
+        : '/app/api.php?_lup&uid=' + encodeURIComponent(uid);
+      const fallbackUrl = '/app/api.php?_lp=1';
 
       const respPrimary = await fetch(primaryUrl);
       if(!respPrimary.ok) throw new Error(t('pointsError'));

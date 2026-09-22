@@ -7,7 +7,7 @@
         <button href="#" role="button" class="btn btn-primary col-2 my-auto me-3" data-bs-toggle="collapse" data-bs-target="#form-np" aria-expanded="false" aria-controls="form-np">
             Agregar punto
         </button>
-    <form class="row mb-3 collapse" action="/app/app.php" method="POST" id="form-np">
+    <form class="row mb-3 collapse" action="/app/api.php" method="POST" id="form-np">
             <div class="input-group w-75">
                 <label class="form-control bg-secondary text-white">Nuevo punto</label>
                 <input type="hidden" name="_ap" value="true">

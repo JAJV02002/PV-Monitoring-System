@@ -44,13 +44,13 @@ function head($ua = new LoginController(), $title = "Monitor FV") {
 function body() { ?>
 <body>
 <main id="app" class="d-flex flex-nowrap">
-    <?php include_once __DIR__ . '/../components/bg-theme.php';?>
+    <?php include_once __DIR__ . '/../components/theme-switcher.php';?>
     <!-- Sidebar -->
     <?php require_once __DIR__ . '/../partials/sidebar.php'; ?>
     <!-- Content -->
     <div class="container-fluid overflow-auto">
     <?php // Global modal component available across pages ?>
-    <?php if (file_exists(__DIR__ . '/../components/alert_modal.php')) { include __DIR__ . '/../components/alert_modal.php'; } ?>
+    <?php if (file_exists(__DIR__ . '/../components/alert-modal.php')) { include __DIR__ . '/../components/alert-modal.php'; } ?>
 
 <?php }
 
@@ -73,10 +73,10 @@ function scripts($script = "") { ?>
 <?php 
     if($GLOBALS['tipo'] == "Administrador general"){
 ?>
-        <script src="/resources/js/appAdmin.js"></script>
+        <script src="/resources/js/admin.js"></script>
 
 <?php } else {?>
-    <script src="/resources/js/appUser.js"></script>
+    <script src="/resources/js/user.js"></script>
 <?php } ?>
 
 <script src="/resources/js/color-modes.js"></script>

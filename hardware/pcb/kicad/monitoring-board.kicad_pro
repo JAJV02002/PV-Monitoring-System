@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "tarjeta_SolarVista.kicad_pro",
+    "filename": "monitoring-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -488,7 +488,7 @@
       "plot": "../Gerber_PCB_SolarVista/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "tarjeta_SolarVista.step",
+      "step": "monitoring-board.step",
       "svg": "",
       "vrml": ""
     },

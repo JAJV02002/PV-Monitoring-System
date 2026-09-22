@@ -1,12 +1,12 @@
-# Architecture and telemetry
+# 📊 Architecture and Telemetry
 
-## Embedded acquisition
+## ⚡ Embedded Acquisition
 
 The ESP32 acquires two analog channels, applies offset removal and calibration, and reports RMS voltage and current. Voltage and current are averaged over five acquisition blocks. Power is the last block's apparent power; the energy accumulator integrates block-level apparent power with a unity-power-factor assumption.
 
-## Transport
+## 📡 Transport
 
-The firmware sends an HTTPS POST to `/app/app.php` with content type `application/x-www-form-urlencoded`.
+The firmware sends an HTTPS POST to `/app/api.php` with content type `application/x-www-form-urlencoded`.
 
 | Field | Meaning | Server use |
 | --- | --- | --- |
@@ -21,14 +21,14 @@ The firmware sends an HTTPS POST to `/app/app.php` with content type `applicatio
 
 The body is form data, not JSON. Device identifiers describe the board; the shared key provides the endpoint's device authentication. The firmware currently disables certificate verification.
 
-## Server flow
+## 🔄 Server Flow
 
-`app/app.php` validates the device key, then uses `MatrixController` to look up the chip ID. A new chip ID is inserted into `dispositivos`. An existing device must be linked to a record in `puntos`; only then does `ReadingController::captureReading()` store the measurement through the `lecturas` model.
+`app/api.php` validates the device key, then uses `MatrixController` to look up the chip ID. A new chip ID is inserted into `dispositivos`. An existing device must be linked to a record in `puntos`; only then does `ReadingController::captureReading()` store the measurement through the `lecturas` model.
 
 The same request handler serves browser operations. Browser POST requests use a CSRF token. Session handling and remember-me support are defined in the authentication controller and autoloader.
 
-## Storage and presentation
+## 🗄️ Storage and Presentation
 
 Models extend the `DB` class, which connects through `mysqli`. The web application keeps its PHP views, CSS and JavaScript under `resources/`. The front controller in `index.php` chooses Spanish or English views according to the URL prefix.
 
-I describe the tables and columns used by the application in [database requirements](../software/webapp/database/README.md). A standalone database schema is not yet published; that inventory does not define the column types, constraints and indexes needed for deployment.
+The tables and columns used by the application are described in [database requirements](../software/webapp/database/README.md). A standalone database schema is not yet published; that inventory does not define the column types, constraints and indexes needed for deployment.

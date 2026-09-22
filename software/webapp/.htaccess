@@ -19,6 +19,8 @@ Options -Indexes
 #   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 # </IfModule>
 RewriteEngine On
+# Support devices configured with the previous endpoint URL.
+RewriteRule ^app/app\.php$ app/api.php [L]
 RewriteRule ^(?:app/(?:Models|Controllers)(?:/|$)|app/(?:config|autoloader)\.php$|database(?:/|$)) - [F,L,NC]
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f

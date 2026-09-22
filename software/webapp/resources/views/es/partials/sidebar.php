@@ -64,7 +64,7 @@
         <!-- <li><a class="dropdown-item" href="#">Settings</a></li> -->
         <li><a class="dropdown-item" href="/perfil?id=<?=$GLOBALS['uid']?>">Perfil</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/app/app.php?_logout">Cerrar sesión</a></li>
+        <li><a class="dropdown-item" href="/app/api.php?_logout">Cerrar sesión</a></li>
       </ul>
     </div>
   </div>

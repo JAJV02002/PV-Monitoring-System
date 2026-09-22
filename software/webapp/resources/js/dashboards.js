@@ -1,7 +1,7 @@
 // Generic dashboards renderer for multiple metrics
 // Contract:
 // - Placeholders: elements with data-metric attribute and a canvas inside
-// - Config: window.DASH_CONFIG = { api: '/app/app.php?_readings', pointId, range, metrics: [{ key, label, unit, color }] }
+// - Config: window.DASH_CONFIG = { api: '/app/api.php?_readings', pointId, range, metrics: [{ key, label, unit, color }] }
 // - Backend returns: { timestamps: [...], data: { [metricKey]: number[] } }
 
 (function(){
@@ -109,7 +109,7 @@
     if(placeholders.length === 0) return;
 
   const cfg = window.DASH_CONFIG || getConfigFromDOM() || {};
-  if(!cfg.api) cfg.api = '/app/app.php';
+  if(!cfg.api) cfg.api = '/app/api.php';
   DASH_STATE.cfg = cfg;
 
     // Prepare charts per placeholder

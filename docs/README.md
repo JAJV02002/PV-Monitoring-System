@@ -1,8 +1,15 @@
-# Project documentation
+# 📖 Project Documentation
 
-I organized these guides to help you understand the system and recreate the hardware and software setup. Start with the hardware guide, then configure the web application and firmware.
+Guides for understanding the monitoring system and recreating its hardware and software setup.
 
-- [Architecture and telemetry](architecture.md): software flow, request fields and measurement storage.
-- [Firmware](../software/firmware/README.md): local configuration, build commands and measurement behavior.
-- [Web application](../software/webapp/README.md): PHP/MySQL configuration and deployment requirements.
-- [Hardware](../hardware/README.md): BOM tables, enclosure meshes, PCB design and manufacturing files.
+## 🚀 Recommended Reading Order
+
+1. [Hardware](../hardware/README.md): components, enclosure, PCB and manufacturing resources.
+2. [Web application](../software/webapp/README.md): Apache, PHP, database and device-key configuration.
+3. [Firmware](../software/firmware/README.md): ESP32 configuration, build and upload.
+4. [Architecture and telemetry](architecture.md): acquisition flow, request fields and data storage.
+
+## 🔗 Additional Reference
+
+- [Bill of materials](../hardware/bom/README.md)
+- [Database requirements](../software/webapp/database/README.md)

@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Fetch profile data
-    fetch(`/app/app.php?_profile_data&uid=${encodeURIComponent(uid)}`)
+    fetch(`/app/api.php?_profile_data&uid=${encodeURIComponent(uid)}`)
         .then(r => r.json())
         .then(data => {
             if (data && data.r !== false) {
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (passwdInput.value) fd.append('passwd', passwdInput.value);
         fd.append('_csrf', document.querySelector('meta[name="csrf-token"]').getAttribute('content') || '');
 
-        fetch('/app/app.php', { method: 'POST', body: fd })
+        fetch('/app/api.php', { method: 'POST', body: fd })
         .then(r => r.json())
         .then(j => {
             if (j && j.r) {

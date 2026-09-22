@@ -6923,7 +6923,7 @@
 			(uuid "733fd680-4161-40f3-850f-6165d34ce5f1")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R9")
 					(unit 1)
@@ -6992,7 +6992,7 @@
 			(uuid "66f09f0a-ab43-4aaf-87d7-caacfc090242")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R3")
 					(unit 1)
@@ -7061,7 +7061,7 @@
 			(uuid "9b7dd5e3-6c1f-41d0-914c-afd3118a29f0")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C6")
 					(unit 1)
@@ -7128,7 +7128,7 @@
 			(uuid "dcaa655a-c8c4-4277-8fd0-5a455dbda7ed")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "D2")
 					(unit 1)
@@ -7194,7 +7194,7 @@
 			(uuid "bb593664-b0ea-4a44-9104-59ad9bb2eabb")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR04")
 					(unit 1)
@@ -7332,7 +7332,7 @@
 			(uuid "32650051-ec7c-49b2-be4c-882463ce12d6")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "IC1")
 					(unit 1)
@@ -7401,7 +7401,7 @@
 			(uuid "ca123cd6-46a2-46e7-8bf7-8f2a47406415")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C7")
 					(unit 1)
@@ -7539,7 +7539,7 @@
 			(uuid "1f1dc206-0c2b-4ea5-9477-989b27680d71")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "IC2")
 					(unit 1)
@@ -7739,7 +7739,7 @@
 			(uuid "fb5b6311-af73-410a-bd5d-b2a31aac784b")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C2")
 					(unit 1)
@@ -7857,7 +7857,7 @@
 			(uuid "71b71790-bb5d-446f-aa11-3ea6eb3a2884")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_Vout1")
 					(unit 1)
@@ -7924,7 +7924,7 @@
 			(uuid "87c76703-3588-4c47-a893-ba445ba20c36")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R7")
 					(unit 1)
@@ -7990,7 +7990,7 @@
 			(uuid "855cdb71-46db-43fc-805a-18752f38ef30")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR02")
 					(unit 1)
@@ -8059,7 +8059,7 @@
 			(uuid "c3bf46b7-955e-400d-8d8b-5666d685379f")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C5")
 					(unit 1)
@@ -8124,7 +8124,7 @@
 			(uuid "49a59669-6bf8-4eb6-9d6b-302357e5a5d1")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR030")
 					(unit 1)
@@ -8191,7 +8191,7 @@
 			(uuid "68fefe00-844c-4414-bc67-db05f5361841")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R15")
 					(unit 1)
@@ -8450,7 +8450,7 @@
 			(uuid "ad2853b5-822b-46c9-bdd3-cac96d64b811")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C4")
 					(unit 1)
@@ -8515,7 +8515,7 @@
 			(uuid "f86330b6-702f-40db-9898-fb43ac3c5832")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR029")
 					(unit 1)
@@ -8580,7 +8580,7 @@
 			(uuid "cb22261f-f267-44c5-8532-65560a8b2bf1")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR028")
 					(unit 1)
@@ -8649,7 +8649,7 @@
 			(uuid "24d8c1f6-5cce-48e3-8cc1-b4c0d4874569")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C11")
 					(unit 1)
@@ -8767,7 +8767,7 @@
 			(uuid "e48cec1c-c725-476b-af36-1ec280a3e488")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_Vin1")
 					(unit 1)
@@ -8836,7 +8836,7 @@
 			(uuid "5e947e5f-efd0-4780-a5e2-665d16508509")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C9")
 					(unit 1)
@@ -8905,7 +8905,7 @@
 			(uuid "249a48c6-adbd-4f0a-bd4b-77a9b5f9f810")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R4")
 					(unit 1)
@@ -8974,7 +8974,7 @@
 			(uuid "c82407e6-cf94-4204-85a3-9bad19a73730")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R18")
 					(unit 1)
@@ -9092,7 +9092,7 @@
 			(uuid "bedeab66-6f31-4939-8fe5-30671686bb27")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_VoltageSensor")
 					(unit 1)
@@ -9260,7 +9260,7 @@
 			(uuid "391f3942-8255-4f07-a884-7d32c1cafb10")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R14")
 					(unit 1)
@@ -9378,7 +9378,7 @@
 			(uuid "ec295fb4-008b-496f-a9d4-c4201d30d1a5")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_Vy1")
 					(unit 1)
@@ -9496,7 +9496,7 @@
 			(uuid "105a3ac7-3bde-4b2b-ad30-0d4c7a221070")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_GND1")
 					(unit 1)
@@ -9634,7 +9634,7 @@
 			(uuid "251aa27d-5929-46aa-bd31-eaeeb3771c65")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "IC3")
 					(unit 1)
@@ -10028,7 +10028,7 @@
 			(uuid "e1f0e99a-ab96-4412-afdd-def6edf6064c")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C13")
 					(unit 1)
@@ -10097,7 +10097,7 @@
 			(uuid "c758972b-0033-46f4-9396-73cb10ca572f")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R19")
 					(unit 1)
@@ -10295,7 +10295,7 @@
 			(uuid "2bedacf1-010b-412f-bd3e-7c0adb4e70f2")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "PS_HV1")
 					(unit 1)
@@ -10427,7 +10427,7 @@
 			(uuid "2dfe77ee-8696-4999-bc58-b22881bfc6c2")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C8")
 					(unit 1)
@@ -10494,7 +10494,7 @@
 			(uuid "38e4dd52-a56f-41dc-a345-e411b9d5517e")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R_Led1")
 					(unit 1)
@@ -10559,7 +10559,7 @@
 			(uuid "1a989339-8a6b-472a-a8d4-ed95f842d4a1")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR08")
 					(unit 1)
@@ -10626,7 +10626,7 @@
 			(uuid "38169f39-68d8-451a-8cfb-d6e5e56b92ae")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R16")
 					(unit 1)
@@ -10744,7 +10744,7 @@
 			(uuid "3df0b64d-7c6c-4622-80c5-2031d134bc33")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_Vx1")
 					(unit 1)
@@ -10811,7 +10811,7 @@
 			(uuid "216faf95-ca91-475a-9387-86bf2059f83f")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R11")
 					(unit 1)
@@ -10929,7 +10929,7 @@
 			(uuid "aa7d038d-714a-4133-a227-b34fd29a7f9d")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_GNDREF1")
 					(unit 1)
@@ -10996,7 +10996,7 @@
 			(uuid "c8c412ff-19ba-41c9-86b3-e399c6728e7e")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R10")
 					(unit 1)
@@ -11114,7 +11114,7 @@
 			(uuid "fbecbc70-0de5-41be-a955-2d9c7ac932f8")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_GND2")
 					(unit 1)
@@ -11179,7 +11179,7 @@
 			(uuid "35fac944-2679-4070-a1b8-f8791f73f71e")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR034")
 					(unit 1)
@@ -11246,7 +11246,7 @@
 			(uuid "1b5d36a0-e2de-4c98-a6e9-d5b61effefc7")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R1")
 					(unit 1)
@@ -11315,7 +11315,7 @@
 			(uuid "399dd67f-17aa-4b13-bfb1-1229cb530775")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R13")
 					(unit 1)
@@ -11382,7 +11382,7 @@
 			(uuid "6bf0912c-d398-4766-9cef-6aca7c4abb1b")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R17")
 					(unit 1)
@@ -11449,7 +11449,7 @@
 			(uuid "0d9165de-6db5-423f-b656-78a5e3c9f182")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R12")
 					(unit 1)
@@ -11516,7 +11516,7 @@
 			(uuid "9125f22f-d5a1-4732-8dda-83246fce3b92")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R6")
 					(unit 1)
@@ -11585,7 +11585,7 @@
 			(uuid "89a92596-408f-4cb2-b39d-97f96a7d8d86")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C14")
 					(unit 1)
@@ -11650,7 +11650,7 @@
 			(uuid "e5cdd700-d6b8-4b43-9804-db8dc606c9f6")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR033")
 					(unit 1)
@@ -11716,7 +11716,7 @@
 			(uuid "252709d2-f973-4ec3-81c2-538f0dcd1640")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR027")
 					(unit 1)
@@ -11785,7 +11785,7 @@
 			(uuid "163c6359-6703-46ea-b862-20fd10a3ace5")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C3")
 					(unit 1)
@@ -11854,7 +11854,7 @@
 			(uuid "abed0c89-2b71-466f-96b3-5298fe9abc88")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C1")
 					(unit 1)
@@ -11919,7 +11919,7 @@
 			(uuid "b7458e5f-8afc-41f4-820f-2014242dda1e")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR01")
 					(unit 1)
@@ -11988,7 +11988,7 @@
 			(uuid "3b0f728f-7958-4c6f-b80d-a8e4e4f39f32")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R5")
 					(unit 1)
@@ -12106,7 +12106,7 @@
 			(uuid "be17380a-2ff1-462b-b6c4-b5001ce80569")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_GNDREF3")
 					(unit 1)
@@ -12172,7 +12172,7 @@
 			(uuid "267fa6f4-c52f-4c2e-a17e-215a83c75b44")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR031")
 					(unit 1)
@@ -12239,7 +12239,7 @@
 			(uuid "5b0c6c52-d45e-4455-9ea5-4cf029f0dea0")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R_Led2")
 					(unit 1)
@@ -12308,7 +12308,7 @@
 			(uuid "46a91030-2ab3-4a61-b965-35d672c20012")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C10")
 					(unit 1)
@@ -12377,7 +12377,7 @@
 			(uuid "60be7baf-aeec-4d8d-99f6-b8bb9c3e49e4")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "C12")
 					(unit 1)
@@ -12515,7 +12515,7 @@
 			(uuid "bb8ff6ef-a9b9-40ba-9eef-14ee105e75e5")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR032")
 					(unit 1)
@@ -12581,7 +12581,7 @@
 			(uuid "57bd8d50-1b76-45e2-84ec-865f55990392")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR03")
 					(unit 1)
@@ -12648,7 +12648,7 @@
 			(uuid "4eea0889-82cb-47ba-8209-dd446eab8b42")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R8")
 					(unit 1)
@@ -12714,7 +12714,7 @@
 			(uuid "e3d19718-e32c-432b-836f-dce305be98b5")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR023")
 					(unit 1)
@@ -12779,7 +12779,7 @@
 			(uuid "51760730-2d4f-45c2-8f78-3c13c444cc0d")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "#PWR026")
 					(unit 1)
@@ -12846,7 +12846,7 @@
 			(uuid "8a5c175c-515d-4b37-91b2-66f8942f33c8")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "R2")
 					(unit 1)
@@ -12964,7 +12964,7 @@
 			(uuid "6bbc746c-66e8-4926-a0a7-ca8677db4fe7")
 		)
 		(instances
-			(project "tarjeta_SolarVista"
+			(project "monitoring-board"
 				(path "/ef399b01-2fb5-46b2-97ac-679d759b839b"
 					(reference "TP_GNDREF2")
 					(unit 1)

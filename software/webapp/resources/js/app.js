@@ -6,8 +6,8 @@ function readMeta(name){
 const app = {
     //Directorio de rutas
     routes : {
-      app : "/app/app.php",
-      newPto : "/app/app.php?_np",
+      app : "/app/api.php",
+      newPto : "/app/api.php?_np",
       insertLectura : "?_il",
       loadLectura : "?_ll",
       loadHistorico : "?_lh"

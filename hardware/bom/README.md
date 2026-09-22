@@ -1,12 +1,20 @@
-# Bill of materials
+# 📋 Bill of Materials
 
-I use [EMON_BOM.xlsx](EMON_BOM.xlsx) as the sole bill of materials for this project. The workbook contains two tables:
+[bill-of-materials.xlsx](bill-of-materials.xlsx) is the sole bill of materials for the project.
 
-- **Core components:** the ESP32 board, power connections, passive components, headers and test points.
-- **High-precision sensing configuration:** the isolation amplifier, operational amplifiers and current transducer.
+## 📊 Workbook Contents
 
-## Using the workbook
+- **Core components:** ESP32 board, power connections, passive components, headers and test points.
+- **High-precision sensing:** Isolation amplifier, operational amplifiers and current transducer.
+- **Purchasing information:** Designators, descriptions, quantities, USD costs and suppliers.
 
-Open the workbook in Excel or a compatible spreadsheet application. Use the designators and part descriptions to identify components, the quantities to prepare your order, and the supplier column to locate parts. Unit and total costs are listed in USD as reference prices.
+## 🚀 How to Use
 
-Read the resistor-cost footnote when estimating the total: that entry combines the cost of several resistor values. Check current prices, availability, footprints and electrical ratings before purchasing components for your build.
+1. Open the workbook in Excel or a compatible spreadsheet application.
+2. Select the components required for the intended sensing configuration.
+3. Use the designators and part descriptions to prepare the order.
+4. Check footprints, electrical ratings and availability against the intended board revision.
+
+## 💰 Cost Notes
+
+Prices are reference figures in USD. The resistor-cost entry combines several resistor values; consult its workbook footnote when estimating the total. Confirm current supplier prices before purchasing.

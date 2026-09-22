@@ -1,8 +1,19 @@
-# Enclosure
+# 🧩 Enclosure
 
-I include the enclosure as two STL files so you can inspect and print the base and lid:
+Two STL meshes define the enclosure base and lid.
 
-- [base_carcasaTarjetaMonitorFV.STL](base_carcasaTarjetaMonitorFV.STL): enclosure base.
-- [tapa_carcasaTarjetaMonitorFV-4.STL](tapa_carcasaTarjetaMonitorFV-4.STL): enclosure lid.
+## 📁 Files
 
-Open the files in a CAD viewer or slicer to inspect the assembly and prepare printing. STL files do not encode units; confirm scale and fit against the PCB before printing.
+| File | Description |
+| --- | --- |
+| [enclosure-base.stl](enclosure-base.stl) | Enclosure base |
+| [enclosure-lid.stl](enclosure-lid.stl) | Enclosure lid |
+
+## 🖨️ Printing Preparation
+
+1. Open both meshes in a CAD viewer or slicer.
+2. Confirm the scale: STL files do not encode units.
+3. Check board clearance and lid fit against the [PCB assembly model](../pcb/3d/README.md).
+4. Select printing material, orientation and settings appropriate to the installation.
+
+The files contain mesh geometry; editable parametric enclosure models are not included.

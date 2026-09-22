@@ -2,12 +2,12 @@
 // Profile page - simple user profile settings
 ?>
 <div class="py-3">
-    <h2>Perfil de usuario</h2>
-    <p class="text-muted">Configura los datos de tu cuenta.</p>
+    <h2>User profile</h2>
+    <p class="text-muted">Manage your account details.</p>
 
     <form id="profileForm" class="w-50">
         <div class="mb-3">
-            <label class="form-label">Nombre</label>
+            <label class="form-label">Name</label>
             <input type="text" id="name" name="name" class="form-control" required disabled>
         </div>
         <div class="mb-3">
@@ -15,14 +15,14 @@
             <input type="email" id="email" name="email" class="form-control" required disabled>
         </div>
         <div class="mb-3">
-            <label class="form-label">Nueva contraseña (opcional)</label>
+            <label class="form-label">New password (optional)</label>
             <input type="password" id="passwd" name="passwd" class="form-control" disabled>
         </div>
         <input type="hidden" id="uid" name="uid" value="">
         <div class="d-flex gap-2">
-            <button type="button" id="editBtn" class="btn btn-outline-primary">Editar</button>
-            <button type="submit" id="saveBtn" class="btn btn-primary" style="display:none;">Guardar</button>
-            <button type="button" id="cancelBtn" class="btn btn-secondary" style="display:none;">Cancelar</button>
+            <button type="button" id="editBtn" class="btn btn-outline-primary">Edit</button>
+            <button type="submit" id="saveBtn" class="btn btn-primary" style="display:none;">Save</button>
+            <button type="button" id="cancelBtn" class="btn btn-secondary" style="display:none;">Cancel</button>
         </div>
     </form>
 
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Fetch profile data
-    fetch(`/app/app.php?_profile_data&uid=${encodeURIComponent(uid)}`)
+    fetch(`/app/api.php?_profile_data&uid=${encodeURIComponent(uid)}`)
         .then(r => r.json())
         .then(data => {
             if (data && data.r !== false) {
@@ -98,18 +98,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (passwdInput.value) fd.append('passwd', passwdInput.value);
         fd.append('_csrf', document.querySelector('meta[name="csrf-token"]').getAttribute('content') || '');
 
-        fetch('/app/app.php', { method: 'POST', body: fd })
+        fetch('/app/api.php', { method: 'POST', body: fd })
         .then(r => r.json())
         .then(j => {
             if (j && j.r) {
-                msgEl.innerHTML = '<div class="alert alert-success">Perfil actualizado</div>';
+                msgEl.innerHTML = '<div class="alert alert-success">Profile updated</div>';
                 original = { name: nameInput.value, email: emailInput.value };
                 setReadonly(true);
             } else {
-                msgEl.innerHTML = '<div class="alert alert-danger">Ocurrió un error</div>';
+                msgEl.innerHTML = '<div class="alert alert-danger">An error occurred</div>';
             }
         }).catch(()=>{
-            msgEl.innerHTML = '<div class="alert alert-danger">Ocurrió un error</div>';
+            msgEl.innerHTML = '<div class="alert alert-danger">An error occurred</div>';
         });
     });
 });

@@ -10,6 +10,19 @@ require_once __DIR__ . '/config.php';
 spl_autoload_register('autoload');
 
 function autoload($class){
+    // Keep model class names aligned with the existing database tables.
+    $modelFiles = [
+        'Models\\DB' => 'Models/Database.php',
+        'Models\\dispositivos' => 'Models/devices.php',
+        'Models\\lecturas' => 'Models/readings.php',
+        'Models\\puntos' => 'Models/points.php',
+        'Models\\remember_tokens' => 'Models/remember-tokens.php',
+    ];
+    if (isset($modelFiles[$class])) {
+        require_once ROOT . DS . $modelFiles[$class];
+        return;
+    }
+
     $class = ROOT . DS . str_replace("\\",DS,$class) . '.php';
     if(!file_exists($class)){
         throw new \Exception("Error, clase no encontrada " . $class, 1);

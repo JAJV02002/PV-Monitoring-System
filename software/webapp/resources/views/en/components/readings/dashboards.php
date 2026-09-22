@@ -21,7 +21,7 @@ $metrics = $config['metrics'] ?? [
 <?php
 	// Build config payload to pass via data attribute (avoids inline scripts)
 	$dashCfg = [
-		'api' => '/app/app.php',
+		'api' => '/app/api.php',
 		'pointId' => $config['pointId'] ?? null,
 		'range' => $config['range'] ?? 'latest',
 		'pollMs' => $config['pollMs'] ?? 5000,

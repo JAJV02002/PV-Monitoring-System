@@ -1,94 +1,169 @@
-# PV Monitoring System
+# ☀️ PV Monitoring System
 
-I developed this photovoltaic monitoring system for my bachelor’s thesis. I use an ESP32 for electrical measurements and a PHP/MySQL application for wireless telemetry, data storage and a bilingual web dashboard. I share the hardware, firmware and setup instructions here so you can recreate the system and adapt it to your installation.
+A photovoltaic monitoring project combining an ESP32 measurement unit, a PHP/MySQL web application, PCB designs and a printable enclosure. Developed for a bachelor’s thesis, the repository brings together the hardware and software resources for studying and recreating the system.
 
-## Overview
+![Project Type](https://img.shields.io/badge/project-research%20prototype-blue)
+![Firmware](https://img.shields.io/badge/firmware-ESP32-orange)
+![Web Application License](https://img.shields.io/badge/web%20app%20license-GPL--3.0-lightblue)
 
-The ESP32 samples voltage and current signals on GPIO 34 and GPIO 35, removes their offsets, calculates calibrated RMS values, and sends measurements to the web application over Wi-Fi. The PHP application manages users, devices, matrices and measurement points, and stores readings in MySQL through `mysqli`.
+## 🌟 Features
+
+- **Electrical measurements:** RMS voltage, RMS current, apparent power and an accumulated energy estimate.
+- **Wi-Fi telemetry:** ESP32 measurements sent to the web application using HTTPS form requests.
+- **Web dashboard:** Spanish and English interfaces with charts and historical readings.
+- **Device management:** Devices grouped into matrices and measurement points.
+- **Hardware resources:** KiCad schematic and board layout, manufacturing outputs and a PCB assembly model.
+- **Printable enclosure:** Separate STL files for the base and lid.
+
+## 📁 Repository Structure
+
+```text
+PV-Monitoring-System/
+├── hardware/
+│   ├── bom/
+│   │   └── bill-of-materials.xlsx
+│   ├── cad/
+│   │   ├── enclosure-base.stl
+│   │   └── enclosure-lid.stl
+│   └── pcb/
+│       ├── kicad/
+│       │   ├── monitoring-board.kicad_pro
+│       │   ├── monitoring-board.kicad_sch
+│       │   └── monitoring-board.kicad_pcb
+│       ├── gerber/pcb-manufacturing.zip
+│       └── 3d/pcb-assembly.zip
+├── software/
+│   ├── firmware/
+│   │   ├── src/main.cpp
+│   │   ├── include/secrets.example.h
+│   │   └── platformio.ini
+│   └── webapp/
+│       ├── app/
+│       ├── resources/
+│       ├── index.php
+│       └── .env.example
+└── docs/
+    └── architecture.md
+```
+
+Each component directory includes its own README with configuration and usage instructions.
+
+## 🚀 Quick Start
+
+### 1. Prepare the Hardware
+
+1. Review the [Excel bill of materials](hardware/bom/bill-of-materials.xlsx).
+2. Open the [KiCad project](hardware/pcb/kicad/README.md) and inspect the circuit and board layout.
+3. Review the [manufacturing files](hardware/pcb/gerber/README.md) before ordering a PCB.
+4. Inspect and print the [enclosure base and lid](hardware/cad/README.md), checking scale and fit against the board.
+
+### 2. Configure the Web Application
+
+Set up Apache, PHP with `mysqli`, and MySQL. Follow the [web application guide](software/webapp/README.md) to configure the document root, HTTPS and database connection.
+
+```sh
+cd software/webapp
+cp .env.example .env
+```
+
+Enter the database credentials and a random hexadecimal device key in `.env`. A compatible database schema is required; the standalone schema is not yet published. See [database requirements](software/webapp/database/README.md).
+
+### 3. Configure and Upload the Firmware
+
+```sh
+cd software/firmware
+cp include/secrets.example.h include/secrets.h
+```
+
+Set the Wi-Fi credentials, HTTPS endpoint and matching device key in `secrets.h`, then build and upload:
+
+```sh
+pio run
+pio run --target upload
+pio device monitor
+```
+
+### 4. Connect the Measurement Point
+
+Register the device with the web application, associate it with a measurement point, and confirm that readings appear in the database and dashboard. Check calibration against a suitable reference instrument.
+
+## 📊 System Architecture
 
 ```text
 Voltage and current signals
-           │
-           ▼
- ESP32 · Arduino / C++
- Sampling · RMS · Calibration
-           │
-           │ HTTPS form POST
-           ▼
- PHP application ── mysqli ── MySQL
- Controllers · Models · Views
-           │
-           ▼
- Web dashboard · Spanish / English
- Historical readings · Charts · Statistics
+            │
+            ▼
+      ESP32 + sensors
+  Sampling · RMS · Calibration
+            │
+            │ Wi-Fi / HTTPS form POST
+            ▼
+      PHP web application
+    Controllers · Models · Views
+            │
+            ├── MySQL measurement storage
+            │
+            ▼
+       Web dashboard
+   Live views · History · Charts
 ```
 
-The included firmware processes offset-corrected waveforms. It should not be interpreted as a verified direct-DC photovoltaic measurement implementation.
+## 🔧 Hardware
 
-## Repository layout
+The Excel BOM contains core components and a high-precision sensing configuration, including the ESP32-DEVKITC-32E, HCPL-7800A-300E, OP177GSZ and HXS20-NP. Use the workbook as the component list and check compatibility with the intended PCB revision before assembly.
 
-```text
-hardware/
-├── bom/                 Excel bill of materials
-├── cad/                 Enclosure base and lid STL files
-└── pcb/
-    ├── kicad/          KiCad schematic and board layout
-    ├── gerber/         Gerber and drill archive
-    └── 3d/             PCB assembly STEP archive
-software/
-├── firmware/
-│   ├── src/main.cpp     ESP32 firmware
-│   ├── include/         Local configuration template
-│   └── platformio.ini   PlatformIO project
-└── webapp/
-    ├── app/            PHP controllers, models and request handling
-    ├── resources/      Views, styles and JavaScript
-    ├── index.php       Web entry point
-    └── .htaccess       Apache configuration
-docs/                   Architecture and setup documentation
-```
+The manufacturing job describes a **two-layer, 1.6 mm board**, approximately **100.4 × 70.4 mm**. The enclosure is available as STL meshes, and the PCB assembly is available as a STEP model.
 
-## Included software
+## 💻 Software Stack
 
-| Component | Implementation |
+| Component | Technology |
 | --- | --- |
-| Firmware | C++ with the Arduino framework, targeting PlatformIO `esp32dev` |
-| Acquisition | 12-bit ADC; 1,000 samples per block; five-block RMS averaging |
-| Telemetry | HTTPS POST using `application/x-www-form-urlencoded` |
-| Server | PHP with an MVC-style application structure |
-| Database access | MySQL through `mysqli` |
-| Interface | PHP/HTML, CSS, JavaScript, Bootstrap, Chart.js, jQuery and Popper |
-| Languages | Spanish and English views |
+| Firmware | C++ / Arduino framework / PlatformIO |
+| Microcontroller target | ESP32 development board (`esp32dev`) |
+| Backend | PHP with an MVC-style structure |
+| Database | MySQL through `mysqli` |
+| Web server | Apache |
+| Frontend | PHP views, HTML, CSS and JavaScript |
+| Interface libraries | Bootstrap, Chart.js, jQuery and Popper |
+| Telemetry | HTTPS with URL-encoded form fields |
 
-Power is calculated as `Vrms × Irms` (apparent power). The accumulated energy estimate assumes unity power factor and resets when the ESP32 restarts. See the [firmware documentation](software/firmware/README.md) for the exact averaging and timing behavior.
+## 📈 Measurement Details
 
-## Getting started
+- **ADC inputs:** GPIO 34 for voltage and GPIO 35 for current.
+- **Sampling:** 12-bit resolution, 1,000 samples per block.
+- **Averaging:** Voltage and current averaged over five blocks.
+- **Power:** Apparent power calculated as `Vrms × Irms`.
+- **Energy:** Time-integrated estimate assuming unity power factor; resets at restart.
 
-1. Review the [hardware files](hardware/README.md): BOM tables, KiCad design, manufacturing outputs and enclosure meshes.
-2. Configure the [PHP web application](software/webapp/README.md) with your own database and device key. A compatible database schema is required before the application can be used.
-3. Copy `software/firmware/include/secrets.example.h` to `software/firmware/include/secrets.h`, then set your Wi-Fi credentials, server endpoint and matching device key.
-4. From `software/firmware`, build and upload with PlatformIO:
+The offset filter removes the DC component. Calibration and supported electrical ranges must be verified for the measurement hardware. See the [firmware guide](software/firmware/README.md) for timing and power-averaging details.
 
-   ```sh
-   pio run
-   pio run --target upload
-   pio device monitor
-   ```
+## 📖 Documentation
 
-Local credentials, database dumps and build output are excluded by `.gitignore`.
-
-## Documentation
-
-- [System architecture and telemetry](docs/architecture.md)
-- [Firmware configuration and measurement procedure](software/firmware/README.md)
-- [Web application configuration](software/webapp/README.md)
+- [Hardware guide](hardware/README.md)
+- [Bill of materials](hardware/bom/README.md)
+- [Firmware setup](software/firmware/README.md)
+- [Web application setup](software/webapp/README.md)
 - [Database requirements](software/webapp/database/README.md)
-- [Hardware files](hardware/README.md)
+- [Architecture and telemetry](docs/architecture.md)
 
-## Project scope
+## 📝 License
 
-I developed the system as a research prototype. The application includes authentication, device registration, measurement-point management, historical queries and dashboard views. When recreating it, verify the calibration, electrical ranges and installation requirements against your hardware before collecting measurements.
+The web application is distributed under its existing [GNU GPL version 3 license](software/webapp/LICENSE). Third-party libraries retain their own notices. Separate licensing terms for the hardware, firmware and documentation are not yet specified.
 
-## License
+## 🤝 Contributing
 
-I distribute the web application under its existing [GNU GPL version 3 license](software/webapp/LICENSE). Third-party libraries retain their own notices. Separate licensing terms for the firmware, hardware and documentation are not yet specified.
+Improvements to documentation, reproducibility, hardware integration and software testing are welcome. Use repository issues to describe a problem or propose a change, and include the board revision and relevant configuration when reporting results.
+
+## 🎓 Educational Use
+
+The project supports study of embedded acquisition, electrical measurement, wireless telemetry and web-based monitoring in renewable-energy research.
+
+## 🙏 Acknowledgments
+
+- ESP32 and Arduino communities
+- KiCad development community
+- Bootstrap, Chart.js and other third-party library contributors
+
+---
+
+**Made with ❤️ for renewable energy monitoring**
