@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-DEVKITC-32E")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESP32-DEVKITC-32E.kicad_sym")(options "")(descr "Monitoring board component"))
+  (lib (name "HXS20_NP_LEM")(type "KiCad")(uri "${KIPRJMOD}/symbols/HXS20-NP.kicad_sym")(options "")(descr "Monitoring board component"))
+  (lib (name "Header_TE_640456-2")(type "KiCad")(uri "${KIPRJMOD}/symbols/header-640456-2.kicad_sym")(options "")(descr "Monitoring board component"))
+  (lib (name "RB-0505D_Convertidor")(type "KiCad")(uri "${KIPRJMOD}/symbols/RB-0505D.kicad_sym")(options "")(descr "Monitoring board component"))
+  (lib (name "SMD_HCPL-7800A-300E")(type "KiCad")(uri "${KIPRJMOD}/symbols/HCPL-7800A-300E.kicad_sym")(options "")(descr "Monitoring board component"))
+  (lib (name "SMD_OP27GSZ")(type "KiCad")(uri "${KIPRJMOD}/symbols/OP27GSZ.kicad_sym")(options "")(descr "Monitoring board component"))
+  (lib (name "TestPoint_5001")(type "KiCad")(uri "${KIPRJMOD}/symbols/test-point-5001.kicad_sym")(options "")(descr "Monitoring board component"))
+)

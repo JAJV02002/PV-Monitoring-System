@@ -190,7 +190,7 @@
 	(net 69 "Net-(U1-IN-Pad7)")
 	(net 70 "Linea_out")
 	(net 71 "Net-(U1-IN-Pad5)")
-	(footprint "footprints:MODULE_ESP32-DEVKITC-32E"
+	(footprint "footprints:ESP32-DEVKITC-32E"
 		(layer "F.Cu")
 		(uuid "060e9de0-f3ed-4538-8929-4aa24af19d84")
 		(at 84.7 34.845)
@@ -1152,7 +1152,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "47eb9212-e20a-4a69-8179-c8e99326299f")
 		)
-		(model "${KIPRJMOD}/3dmodels/ESP32-WROOM-32D-Assembly.STEP"
+		(model "${KIPRJMOD}/3dmodels/ESP32-board.step"
 			(offset
 				(xyz 0 0 3.5)
 			)
@@ -1754,7 +1754,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+	(footprint "footprints:capacitor-TAJS104K020RNJ"
 		(layer "F.Cu")
 		(uuid "0beb7995-9847-4ce7-8687-84f7f7b33a5e")
 		(at 44.4725 27.695 90)
@@ -1961,7 +1961,7 @@
 			(pintype "passive")
 			(uuid "c2c6cc1e-8de4-43e5-a49b-1fc97fddf5c6")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapTantalio0.1uF_TAJS104K020RNJ.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-TAJS104K020RNJ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1973,7 +1973,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+	(footprint "footprints:capacitor-TAJS104K020RNJ"
 		(layer "F.Cu")
 		(uuid "0c8d64f0-458e-4d99-bdd0-96edb961d75c")
 		(at 27.8225 31.915 180)
@@ -2180,7 +2180,7 @@
 			(pintype "passive")
 			(uuid "909ef519-e9a4-4674-bbcd-f693ffa065dd")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapTantalio0.1uF_TAJS104K020RNJ.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-TAJS104K020RNJ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2406,7 +2406,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CRGH1206J82K."
+	(footprint "footprints:resistor-CRGH1206J82K"
 		(layer "F.Cu")
 		(uuid "140b52f9-e247-4488-9b3e-b6b7907fbae6")
 		(at 61.3725 32.795 90)
@@ -2593,7 +2593,7 @@
 			(pintype "passive")
 			(uuid "de0ae4f4-28ac-4662-bdf7-162eaa71c415")
 		)
-		(model "${KIPRJMOD}/3dmodels/CRGH1206J82K.stp"
+		(model "${KIPRJMOD}/3dmodels/resistor-CRGH1206J82K.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2605,7 +2605,7 @@
 			)
 		)
 	)
-	(footprint "footprints:SMD_HCPL7800A300E"
+	(footprint "footprints:HCPL-7800A-300E"
 		(layer "F.Cu")
 		(uuid "14f3f754-308a-4048-80d7-0b3ebc1dd327")
 		(at 36.8225 35.915 -90)
@@ -3034,7 +3034,7 @@
 			(pintype "passive")
 			(uuid "04b8a151-a3b0-4cf9-841e-25f5f82eb26c")
 		)
-		(model "${KIPRJMOD}/3dmodels/SMD_HCPL-7800A-300E.stp"
+		(model "${KIPRJMOD}/3dmodels/HCPL-7800A-300E.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -3046,7 +3046,7 @@
 			)
 		)
 	)
-	(footprint "footprints:HXS 20-NP&slash_SP30_LEM"
+	(footprint "footprints:HXS20-NP-SP30"
 		(layer "F.Cu")
 		(uuid "1809d62c-a197-4d3c-8425-ede6748be769")
 		(at 29.962497 57.075 90)
@@ -3413,7 +3413,7 @@
 			(pintype "unspecified")
 			(uuid "ed514151-b116-4636-b1cf-b5f1a1b4649a")
 		)
-		(model "${KIPRJMOD}/3dmodels/HXS 20-NP blackbox.stp"
+		(model "${KIPRJMOD}/3dmodels/HXS20-NP.step"
 			(offset
 				(xyz -8.1 -9.45 6.5)
 			)
@@ -3425,7 +3425,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CRGH1206J82K."
+	(footprint "footprints:resistor-CRGH1206J82K"
 		(layer "F.Cu")
 		(uuid "2154e070-8702-4568-ab8d-bc1791b8fbb8")
 		(at 63.7725 32.795 90)
@@ -3612,7 +3612,7 @@
 			(pintype "passive")
 			(uuid "8b513a22-0c13-4b08-99dc-bb742517ec9e")
 		)
-		(model "${KIPRJMOD}/3dmodels/CRGH1206J82K.stp"
+		(model "${KIPRJMOD}/3dmodels/resistor-CRGH1206J82K.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3624,7 +3624,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res3.3k_CR0805-FX-3301ELF"
+	(footprint "footprints:resistor-CR0805-FX-3301ELF"
 		(layer "F.Cu")
 		(uuid "246a03ac-aa7c-4030-b2ab-989ed1cf2b9f")
 		(at 68.4725 37.095 -90)
@@ -3811,7 +3811,7 @@
 			(pintype "passive")
 			(uuid "8129fd2b-3d93-402c-bd54-d54b9b5af7b3")
 		)
-		(model "${KIPRJMOD}/3dmodels/Res3.3k_CR0805-FX-3301ELF.stp"
+		(model "${KIPRJMOD}/3dmodels/resistor-CR0805-FX-3301ELF.step"
 			(offset
 				(xyz 0 0 0.25)
 			)
@@ -4059,7 +4059,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "3167791f-73f0-4c3d-a173-c49fe1086ab8")
 		(at 57.9225 34.47 90)
@@ -4259,7 +4259,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapCeramico200pF_C1206C201F4HACTU"
+	(footprint "footprints:capacitor-C1206C201F4HACTU"
 		(layer "F.Cu")
 		(uuid "353f4750-0d5b-4da8-a650-3acd7af6cd2b")
 		(at 53.2975 19.295)
@@ -4447,7 +4447,7 @@
 			(pintype "passive")
 			(uuid "a3a94ee7-5a21-4f4b-bcb9-84ef93a419ae")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapCeramico200pF_C1206C201F4HACTU.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-C1206C201F4HACTU.step"
 			(offset
 				(xyz -1.75 -0.9 0)
 			)
@@ -4735,7 +4735,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "366b9c83-1ef1-4b17-a7b1-ab39d6a57d67")
 		(at 26.875 40.2)
@@ -4935,7 +4935,7 @@
 			)
 		)
 	)
-	(footprint "footprints:udc_Logo"
+	(footprint "footprints:UDC-logo"
 		(layer "F.Cu")
 		(uuid "3917b4b4-be30-4d41-a8c5-f3ce8745b144")
 		(at 77.15 65.95)
@@ -6452,7 +6452,7 @@
 			(uuid "85dc6b5a-6664-442e-9319-302680ec366a")
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "395f7e90-c016-4a96-88ab-0554c1d81a20")
 		(at 28.75 37)
@@ -6642,18 +6642,8 @@
 			(pintype "passive")
 			(uuid "87c5a9a2-2ad7-4480-88a7-110e7d77a049")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -6665,7 +6655,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "3a90de07-73b8-4717-95e8-2e82ba972708")
 		(at 63.75 36.8)
@@ -6855,18 +6845,8 @@
 			(pintype "passive")
 			(uuid "c3a10e79-8a76-4d6f-8701-61b5ff13334b")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -6878,7 +6858,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapElecSMD_KEMET_EXV106M025A9BAA"
+	(footprint "footprints:capacitor-EXV106M025A9BAA"
 		(layer "F.Cu")
 		(uuid "3b308258-db31-4a34-a1d8-ecfd0cb512ef")
 		(at 28.535 25.915 180)
@@ -7095,7 +7075,7 @@
 			(pintype "passive")
 			(uuid "fe9ff64d-8ab0-4dc2-93dd-785560f432cc")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapElecSMD_KEMET_EXV106M025A9BAA.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-EXV106M025A9BAA.step"
 			(offset
 				(xyz 2.5 2.25 0.35)
 			)
@@ -7107,7 +7087,7 @@
 			)
 		)
 	)
-	(footprint "footprints:uaslp_Logo"
+	(footprint "footprints:UASLP-logo"
 		(layer "F.Cu")
 		(uuid "43024b9c-4f90-4273-b705-0305214055b1")
 		(at 85.4 65.55)
@@ -18019,7 +17999,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+	(footprint "footprints:capacitor-TAJS104K020RNJ"
 		(layer "F.Cu")
 		(uuid "488afd3b-6c7e-45e7-91aa-2a070d83d8fd")
 		(at 58.85 21.7 180)
@@ -18226,7 +18206,7 @@
 			(pintype "passive")
 			(uuid "f8e88f42-325b-4a6d-8b8e-8a597a6904a2")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapTantalio0.1uF_TAJS104K020RNJ.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-TAJS104K020RNJ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18238,7 +18218,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+	(footprint "footprints:capacitor-TAJS104K020RNJ"
 		(layer "F.Cu")
 		(uuid "4e0e6c5b-02ba-4d6e-b86f-6d92c8771bf0")
 		(at 46.7725 22.795 90)
@@ -18445,7 +18425,7 @@
 			(pintype "passive")
 			(uuid "71d00009-264a-429f-a6d3-77fac977b49f")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapTantalio0.1uF_TAJS104K020RNJ.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-TAJS104K020RNJ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18733,7 +18713,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res100k_CR1206-FX-1003ELF"
+	(footprint "footprints:resistor-CR1206-FX-1003ELF"
 		(layer "F.Cu")
 		(uuid "5275c1dc-f764-41ec-95ff-cb38c3499758")
 		(at 66.0725 32.945 -90)
@@ -18920,7 +18900,7 @@
 			(pintype "passive")
 			(uuid "ace558ac-66d7-4d19-b0e6-dc9d43d90f40")
 		)
-		(model "${KIPRJMOD}/3dmodels/Res100K_CR1206-FX-1003ELF.stp"
+		(model "${KIPRJMOD}/3dmodels/resistor-CR1206-FX-1003ELF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18932,7 +18912,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "55278b44-88c2-47a7-88fe-0c97d89af639")
 		(at 65.95 40.5)
@@ -19122,18 +19102,8 @@
 			(pintype "passive")
 			(uuid "2fda82d9-d83f-40c3-bcda-776d5f02e2f2")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -19145,7 +19115,7 @@
 			)
 		)
 	)
-	(footprint "footprints:SMD_OP27GSZ"
+	(footprint "footprints:OP27GSZ"
 		(layer "F.Cu")
 		(uuid "58f6473e-58e4-4aec-b2f7-4354311b9427")
 		(at 52.7925 24.883 -90)
@@ -19502,18 +19472,8 @@
 			(pintype "passive")
 			(uuid "95086136-48eb-4744-980b-8b5402d4d00e")
 		)
-		(model "OP27GSZ.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/SMD_OP27GSZ.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/OP27GSZ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19525,7 +19485,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CRCW120610K0FKEAC"
+	(footprint "footprints:resistor-CRCW120610K0FKEAC"
 		(layer "F.Cu")
 		(uuid "5f2c6198-54e7-4594-9a4e-662e2e7aabbe")
 		(at 68.5725 32.945 -90)
@@ -19713,7 +19673,7 @@
 			(pintype "passive")
 			(uuid "88ac886b-e92d-4ee2-88c1-2502f9d6dd01")
 		)
-		(model "${KIPRJMOD}/3dmodels/CRCW120610K0FKEAC.stp"
+		(model "${KIPRJMOD}/3dmodels/resistor-CRCW120610K0FKEAC.step"
 			(offset
 				(xyz 1.75 0.75 0)
 			)
@@ -19725,7 +19685,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "6293438c-89cc-49d6-af66-377285896cb1")
 		(at 27.7475 20.915)
@@ -19925,7 +19885,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapCeramico3.3nF_C0805C332F5GECAUTO7210"
+	(footprint "footprints:capacitor-C0805C332F5GECAUTO7210"
 		(layer "F.Cu")
 		(uuid "6763c757-e3de-4f00-9586-04349c55cd2f")
 		(at 48.9725 52.395 180)
@@ -20113,7 +20073,7 @@
 			(pintype "passive")
 			(uuid "168f0e69-95ae-4197-a228-1db1e51ba736")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapCeramico3.3nF_C0805C332F5GECAUTO7210.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-C0805C332F5GECAUTO7210.step"
 			(offset
 				(xyz -1.15 -0.75 0)
 			)
@@ -20125,7 +20085,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Header_TE_640456-2"
+	(footprint "footprints:header-640456-2"
 		(layer "F.Cu")
 		(uuid "6bcd0184-8947-4c48-98d5-66a5c41a02c6")
 		(at 14.65 6.25 180)
@@ -20544,7 +20504,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "bbd5078a-a0de-465e-bbb5-f46d131a8ca6")
 		)
-		(model "${KIPRJMOD}/3dmodels/Header_TE_640456-2.step"
+		(model "${KIPRJMOD}/3dmodels/header-640456-2.step"
 			(offset
 				(xyz -1.25 0.45 3.5)
 			)
@@ -20556,7 +20516,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+	(footprint "footprints:capacitor-TAJS104K020RNJ"
 		(layer "F.Cu")
 		(uuid "77674f92-9207-44a2-b90c-524aeebffeb2")
 		(at 46.7725 27.695 90)
@@ -20763,7 +20723,7 @@
 			(pintype "passive")
 			(uuid "a40e3490-9834-4ae6-91ed-0420c1f73b82")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapTantalio0.1uF_TAJS104K020RNJ.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-TAJS104K020RNJ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20775,7 +20735,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "7794f334-4ac0-4b83-9b13-11e46f1fedf4")
 		(at 46.8725 34.545 90)
@@ -20975,7 +20935,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+	(footprint "footprints:capacitor-TAJS104K020RNJ"
 		(layer "F.Cu")
 		(uuid "7852b03b-d870-462e-a637-b96450e81b32")
 		(at 65.8325 28.021 -90)
@@ -21182,7 +21142,7 @@
 			(pintype "passive")
 			(uuid "a6c9fd9c-290b-41d3-bf07-85c0b19073ea")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapTantalio0.1uF_TAJS104K020RNJ.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-TAJS104K020RNJ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21194,7 +21154,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "8471706f-7928-4b4b-bffd-e098cac3b96d")
 		(at 49.4 40.5)
@@ -21385,18 +21345,8 @@
 			(pintype "passive")
 			(uuid "50fda0bf-579c-46c9-a6ab-068201e8e440")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -21408,7 +21358,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapCeramico200pF_C1206C201F4HACTU"
+	(footprint "footprints:capacitor-C1206C201F4HACTU"
 		(layer "F.Cu")
 		(uuid "91f37998-1052-49b3-b29d-f0de5d7b5618")
 		(at 50.5725 34.745 -90)
@@ -21596,7 +21546,7 @@
 			(pintype "passive")
 			(uuid "9aa9360a-6359-40e0-b25c-a11cc4f3f96d")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapCeramico200pF_C1206C201F4HACTU.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-C1206C201F4HACTU.step"
 			(offset
 				(xyz -1.75 -0.9 0)
 			)
@@ -21608,7 +21558,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "972768de-dbb3-4e3e-9d9c-a4105b2959c2")
 		(at 53.4725 15.695)
@@ -21808,7 +21758,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "99b26543-dadd-4465-b67e-676ff3e4342a")
 		(at 5.15 50.95)
@@ -21998,18 +21948,8 @@
 			(pintype "passive")
 			(uuid "e24e8f71-fb73-49af-881f-f2ec91d1deec")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -22257,7 +22197,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "a6afb7b5-b1b9-416d-bc63-5d904b7dac41")
 		(at 16.65 46.4)
@@ -22447,18 +22387,8 @@
 			(pintype "passive")
 			(uuid "f8756773-8b04-4541-9c7e-8783d06b0983")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -22470,7 +22400,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapElecSMD_KEMET_EXV106M025A9BAA"
+	(footprint "footprints:capacitor-EXV106M025A9BAA"
 		(layer "F.Cu")
 		(uuid "a6d6e5c3-4e39-429c-9cac-9fa67e382d86")
 		(at 66.4725 17.845 180)
@@ -22687,7 +22617,7 @@
 			(pintype "passive")
 			(uuid "f306b640-8256-4bb9-ab4b-862ca87e7afb")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapElecSMD_KEMET_EXV106M025A9BAA.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-EXV106M025A9BAA.step"
 			(offset
 				(xyz 2 2.25 0.35)
 			)
@@ -22699,7 +22629,7 @@
 			)
 		)
 	)
-	(footprint "footprints:SMD_OP27GSZ"
+	(footprint "footprints:OP27GSZ"
 		(layer "F.Cu")
 		(uuid "b6fec765-c384-470e-8c4f-5af7fb19e860")
 		(at 61.8275 26.733 90)
@@ -23056,7 +22986,7 @@
 			(pintype "passive")
 			(uuid "792c5bc3-2788-4cb2-b456-28e50bb783f0")
 		)
-		(model "${KIPRJMOD}/3dmodels/SMD_OP27GSZ.stp"
+		(model "${KIPRJMOD}/3dmodels/OP27GSZ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23068,7 +22998,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "ba343ed5-d421-498d-875d-d6a1b523b646")
 		(at 53.45 42.4)
@@ -23258,18 +23188,8 @@
 			(pintype "passive")
 			(uuid "da139976-eb79-4cd9-be15-b46246325734")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -23281,7 +23201,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "bd77ff24-8c59-40dc-a026-933df1383408")
 		(at 54.2725 34.47 90)
@@ -23481,7 +23401,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapCeramico200pF_C1206C201F4HACTU"
+	(footprint "footprints:capacitor-C1206C201F4HACTU"
 		(layer "F.Cu")
 		(uuid "bebf556e-c124-41f9-aab3-221a753cd338")
 		(at 48.3725 48.745 180)
@@ -23669,7 +23589,7 @@
 			(pintype "passive")
 			(uuid "8aa56af3-118b-4ab6-b6cf-b9a977d43db7")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapCeramico200pF_C1206C201F4HACTU.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-C1206C201F4HACTU.step"
 			(offset
 				(xyz -1.65 -0.9 0)
 			)
@@ -23681,7 +23601,7 @@
 			)
 		)
 	)
-	(footprint "footprints:RB-0505D_Convertidor"
+	(footprint "footprints:RB-0505D"
 		(layer "F.Cu")
 		(uuid "c7b41bc7-8e73-4c7c-9a71-7b98c1d769f5")
 		(at 42.1 11.345 180)
@@ -24003,7 +23923,7 @@
 			(pintype "passive")
 			(uuid "9bb480ef-99cb-40aa-ae37-ee4384516dc7")
 		)
-		(model "${KIPRJMOD}/3dmodels/RB-0505D_Convertidor.stp"
+		(model "${KIPRJMOD}/3dmodels/RB-0505D.step"
 			(offset
 				(xyz 7.75 -1.75 0.5)
 			)
@@ -24781,7 +24701,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapCeramico1000pF_885012207060"
+	(footprint "footprints:capacitor-885012207060"
 		(layer "F.Cu")
 		(uuid "cefc3722-dc1a-4442-a344-200b0fead3ca")
 		(at 27.5825 34.435 180)
@@ -24958,7 +24878,7 @@
 			(pintype "passive")
 			(uuid "7ea7a660-8a54-4ad4-9be4-1c4e955bd0ae")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapCeramico1000pF_885012207060.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-885012207060.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24970,7 +24890,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "d04d430b-4712-4706-b8ff-22857d3b7691")
 		(at 63 21.75)
@@ -25160,18 +25080,8 @@
 			(pintype "passive")
 			(uuid "58430427-58ff-4aaa-8bcc-8dcf01ecbb91")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -25183,7 +25093,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "ded21db3-aa10-4928-bb85-88cdf3b45b93")
 		(at 49.8975 45.045)
@@ -25383,7 +25293,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "df9996e4-afba-4951-8119-67af2499c864")
 		(at 59.8 38.4)
@@ -25573,18 +25483,8 @@
 			(pintype "passive")
 			(uuid "7b88cac0-374e-4429-8053-4dc0557a853c")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -25596,7 +25496,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "e3c2cc46-f557-4aec-94bf-e3bab4535450")
 		(at 45.2 40.55)
@@ -25786,18 +25686,8 @@
 			(pintype "passive")
 			(uuid "deba12c6-6c54-44d6-9ec2-4597abbe7105")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -25809,7 +25699,7 @@
 			)
 		)
 	)
-	(footprint "footprints:TestPoint_5001"
+	(footprint "footprints:test-point-5001"
 		(layer "F.Cu")
 		(uuid "e52a55d3-f01f-486a-a31c-c3f97b1cef4b")
 		(at 22.05 46.4)
@@ -26000,18 +25890,8 @@
 			(pintype "passive")
 			(uuid "ac0c6457-d6b1-4e74-9ef9-96689ca23821")
 		)
-		(model "5001.stp"
-			(offset
-				(xyz 0 0 1.649999951)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/TestPoint_5001.stp"
+		
+		(model "${KIPRJMOD}/3dmodels/test-point-5001.step"
 			(offset
 				(xyz 0 0 2)
 			)
@@ -26023,7 +25903,7 @@
 			)
 		)
 	)
-	(footprint "footprints:CapCeramico200pF_C1206C201F4HACTU"
+	(footprint "footprints:capacitor-C1206C201F4HACTU"
 		(layer "F.Cu")
 		(uuid "ead66b81-4d30-4411-867f-a60db31ddb68")
 		(at 48.3225 57.045 180)
@@ -26211,7 +26091,7 @@
 			(pintype "passive")
 			(uuid "c3e9ebed-d83a-4d65-850a-90abb8f52a93")
 		)
-		(model "${KIPRJMOD}/3dmodels/CapCeramico200pF_C1206C201F4HACTU.stp"
+		(model "${KIPRJMOD}/3dmodels/capacitor-C1206C201F4HACTU.step"
 			(offset
 				(xyz -1.75 -0.9 0)
 			)
@@ -26223,7 +26103,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res100k_CR1206-FX-1003ELF"
+	(footprint "footprints:resistor-CR1206-FX-1003ELF"
 		(layer "F.Cu")
 		(uuid "f0959df8-8a79-40f5-8f77-d056eb232b01")
 		(at 65.8325 23.121 90)
@@ -26410,7 +26290,7 @@
 			(pintype "passive")
 			(uuid "58d50a96-80fb-4772-92c9-e5c4c349ce4d")
 		)
-		(model "${KIPRJMOD}/3dmodels/Res100K_CR1206-FX-1003ELF.stp"
+		(model "${KIPRJMOD}/3dmodels/resistor-CR1206-FX-1003ELF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26422,7 +26302,7 @@
 			)
 		)
 	)
-	(footprint "footprints:Res1OhmSMD_RCC12061R00FKEA"
+	(footprint "footprints:resistor-RCC12061R00FKEA"
 		(layer "F.Cu")
 		(uuid "f17d0295-e2be-413d-b8b2-80db7c85716f")
 		(at 54.5975 48.695)
@@ -26622,7 +26502,7 @@
 			)
 		)
 	)
-	(footprint "footprints:RB-0505D_Convertidor"
+	(footprint "footprints:RB-0505D"
 		(layer "F.Cu")
 		(uuid "f8075a37-4786-4ad4-9591-b2d14333f2d6")
 		(at 63.7725 11.345 180)
@@ -26944,7 +26824,7 @@
 			(pintype "passive")
 			(uuid "6efc5506-3408-4d06-9781-b1070f8f0c6e")
 		)
-		(model "${KIPRJMOD}/3dmodels/RB-0505D_Convertidor.stp"
+		(model "${KIPRJMOD}/3dmodels/RB-0505D.step"
 			(offset
 				(xyz 7.75 -1.75 0.5)
 			)

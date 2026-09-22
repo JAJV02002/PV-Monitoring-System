@@ -879,7 +879,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESP32-DEVKITC-32E:MODULE_ESP32-DEVKITC-32E"
+			(property "Footprint" "footprints:ESP32-DEVKITC-32E"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1658,7 +1658,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HXS 20-NP/SP30_LEM"
+			(property "Footprint" "footprints:HXS20-NP-SP30"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2005,7 +2005,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "640456-2:TE_640456-2"
+			(property "Footprint" "footprints:header-640456-2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2394,7 +2394,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "RB0505D"
+			(property "Footprint" "footprints:RB-0505D"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -2599,7 +2599,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "HCPL7800A300E"
+			(property "Footprint" "footprints:HCPL-7800A-300E"
 				(at 26.67 -94.92 0)
 				(effects
 					(font
@@ -2858,7 +2858,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P600X175-8N"
+			(property "Footprint" "footprints:OP27GSZ"
 				(at 39.37 -94.92 0)
 				(effects
 					(font
@@ -3117,7 +3117,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "5000"
+			(property "Footprint" "footprints:test-point-5001"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -6889,7 +6889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 154.94 50.038 90)
 			(effects
 				(font
@@ -7027,7 +7027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+		(property "Footprint" "footprints:capacitor-TAJS104K020RNJ"
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -7228,7 +7228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SMD_HCPL7800A300E"
+		(property "Footprint" "footprints:HCPL-7800A-300E"
 			(at 137.16 140.64 0)
 			(effects
 				(font
@@ -7367,7 +7367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CapCeramico200pF_C1206C201F4HACTU"
+		(property "Footprint" "footprints:capacitor-C1206C201F4HACTU"
 			(at 199.39 25.7048 0)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SMD_OP27GSZ"
+		(property "Footprint" "footprints:OP27GSZ"
 			(at 209.55 135.56 0)
 			(effects
 				(font
@@ -7575,7 +7575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RB-0505D_Convertidor"
+		(property "Footprint" "footprints:RB-0505D"
 			(at 68.58 248.59 0)
 			(effects
 				(font
@@ -7705,7 +7705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapElecSMD_KEMET_EXV106M025A9BAA"
+		(property "Footprint" "footprints:capacitor-EXV106M025A9BAA"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -7774,7 +7774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 312.09 29.21 0)
 			(effects
 				(font
@@ -7890,7 +7890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 87.63 47.498 90)
 			(effects
 				(font
@@ -8025,7 +8025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapCeramico200pF_C1206C201F4HACTU"
+		(property "Footprint" "footprints:capacitor-C1206C201F4HACTU"
 			(at 164.7952 62.23 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res100k_CR1206-FX-1003ELF"
+		(property "Footprint" "footprints:resistor-CR1206-FX-1003ELF"
 			(at 223.52 69.088 90)
 			(effects
 				(font
@@ -8226,7 +8226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:Header_TE_640456-2"
+		(property "Footprint" "footprints:header-640456-2"
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -8416,7 +8416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+		(property "Footprint" "footprints:capacitor-TAJS104K020RNJ"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -8615,7 +8615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+		(property "Footprint" "footprints:capacitor-TAJS104K020RNJ"
 			(at 251.46 80.01 0)
 			(effects
 				(font
@@ -8684,7 +8684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at -40.31 45.72 0)
 			(effects
 				(font
@@ -8802,7 +8802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapElecSMD_KEMET_EXV106M025A9BAA"
+		(property "Footprint" "footprints:capacitor-EXV106M025A9BAA"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -8940,7 +8940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 140.97 108.458 90)
 			(effects
 				(font
@@ -9009,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 181.94 86.36 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:HXS 20-NP&slash_SP30_LEM"
+		(property "Footprint" "footprints:HXS20-NP-SP30"
 			(at 29.21 109.22 0)
 			(effects
 				(font
@@ -9226,7 +9226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:Res3.3k_CR0805-FX-3301ELF"
+		(property "Footprint" "footprints:resistor-CR0805-FX-3301ELF"
 			(at 212.852 72.39 90)
 			(effects
 				(font
@@ -9295,7 +9295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 48.59 68.58 0)
 			(effects
 				(font
@@ -9413,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 153.34 68.58 0)
 			(effects
 				(font
@@ -9530,7 +9530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SMD_OP27GSZ"
+		(property "Footprint" "footprints:OP27GSZ"
 			(at 275.59 133.02 0)
 			(effects
 				(font
@@ -9668,7 +9668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:MODULE_ESP32-DEVKITC-32E"
+		(property "Footprint" "footprints:ESP32-DEVKITC-32E"
 			(at 129.54 170.18 0)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 128.27 4.14 0)
 			(effects
 				(font
@@ -9994,7 +9994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapCeramico3.3nF_C0805C332F5GECAUTO7210"
+		(property "Footprint" "footprints:capacitor-C0805C332F5GECAUTO7210"
 			(at 120.3452 111.76 0)
 			(effects
 				(font
@@ -10063,7 +10063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 152.4 108.458 90)
 			(effects
 				(font
@@ -10200,7 +10200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RB-0505D_Convertidor"
+		(property "Footprint" "footprints:RB-0505D"
 			(at 68.58 271.45 0)
 			(effects
 				(font
@@ -10393,7 +10393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+		(property "Footprint" "footprints:capacitor-TAJS104K020RNJ"
 			(at 182.88 69.85 0)
 			(effects
 				(font
@@ -10592,7 +10592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CRGH1206J82K."
+		(property "Footprint" "footprints:resistor-CRGH1206J82K"
 			(at 228.6 37.338 90)
 			(effects
 				(font
@@ -10661,7 +10661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 10.49 74.93 0)
 			(effects
 				(font
@@ -10777,7 +10777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 195.58 22.098 90)
 			(effects
 				(font
@@ -10846,7 +10846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 157.48 167.31 0)
 			(effects
 				(font
@@ -10962,7 +10962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 159.258 58.42 90)
 			(effects
 				(font
@@ -11031,7 +11031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 14.3 74.93 0)
 			(effects
 				(font
@@ -11281,7 +11281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CRCW120610K0FKEAC"
+		(property "Footprint" "footprints:resistor-CRCW120610K0FKEAC"
 			(at 212.852 60.96 90)
 			(effects
 				(font
@@ -11348,7 +11348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res100k_CR1206-FX-1003ELF"
+		(property "Footprint" "footprints:resistor-CR1206-FX-1003ELF"
 			(at 260.35 22.098 90)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CRGH1206J82K."
+		(property "Footprint" "footprints:resistor-CRGH1206J82K"
 			(at 223.52 47.498 90)
 			(effects
 				(font
@@ -11482,7 +11482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 78.74 50.038 90)
 			(effects
 				(font
@@ -11551,7 +11551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapCeramico200pF_C1206C201F4HACTU"
+		(property "Footprint" "footprints:capacitor-C1206C201F4HACTU"
 			(at 129.2352 116.84 0)
 			(effects
 				(font
@@ -11751,7 +11751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+		(property "Footprint" "footprints:capacitor-TAJS104K020RNJ"
 			(at 97.79 50.8 0)
 			(effects
 				(font
@@ -11820,7 +11820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapCeramico1000pF_885012207060"
+		(property "Footprint" "footprints:capacitor-885012207060"
 			(at 84.7852 62.23 0)
 			(effects
 				(font
@@ -12023,7 +12023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 157.48 163.5 0)
 			(effects
 				(font
@@ -12274,7 +12274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapTantalio0.1uF_TAJS104K020RNJ"
+		(property "Footprint" "footprints:capacitor-TAJS104K020RNJ"
 			(at 243.84 80.01 0)
 			(effects
 				(font
@@ -12343,7 +12343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CapCeramico200pF_C1206C201F4HACTU"
+		(property "Footprint" "footprints:capacitor-C1206C201F4HACTU"
 			(at 111.4552 109.22 0)
 			(effects
 				(font
@@ -12614,7 +12614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Res1OhmSMD_RCC12061R00FKEA"
+		(property "Footprint" "footprints:resistor-RCC12061R00FKEA"
 			(at 158.75 44.958 90)
 			(effects
 				(font
@@ -12881,7 +12881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_5001"
+		(property "Footprint" "footprints:test-point-5001"
 			(at 157.48 171.12 0)
 			(effects
 				(font

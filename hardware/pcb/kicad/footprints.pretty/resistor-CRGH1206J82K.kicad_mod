@@ -1,0 +1,192 @@
+(footprint "resistor-CRGH1206J82K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CRGH1206")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9d152ea6-67b6-4b1f-8200-a2cfc3048618")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC3116X65N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b8246802-9df3-4668-be50-4ab2dec8dd51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f8f8169-1ca7-483c-b80f-939480ef129b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb6098c5-b106-4d49-b3c2-252a3cdf503f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f267fbb9-e139-4705-8c08-0ad39cc5faa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.688)
+		(end 0 0.688)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39ee9bde-d2e4-4595-bd02-e12e6aa49860")
+	)
+	(fp_line
+		(start -2.225 -1.15)
+		(end 2.225 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "781d3326-2a39-42e5-8e41-dbe49ba5b145")
+	)
+	(fp_line
+		(start -2.225 1.15)
+		(end -2.225 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d044a5e-9c9c-4212-bcdc-b76d74a035de")
+	)
+	(fp_line
+		(start 2.225 -1.15)
+		(end 2.225 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99a19168-4477-43f1-9b1d-bfdea8938632")
+	)
+	(fp_line
+		(start 2.225 1.15)
+		(end -2.225 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a43336bc-cb63-4873-831f-3107b8351358")
+	)
+	(fp_line
+		(start -1.55 -0.788)
+		(end 1.55 -0.788)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "240b48e9-36be-4530-b63a-6ec4176a77e4")
+	)
+	(fp_line
+		(start -1.55 0.788)
+		(end -1.55 -0.788)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6938cbc-8816-4200-93a8-06e4652b5fce")
+	)
+	(fp_line
+		(start 1.55 -0.788)
+		(end 1.55 0.788)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c07ded32-78ce-4bb0-b088-dc7e9010a0a6")
+	)
+	(fp_line
+		(start 1.55 0.788)
+		(end -1.55 0.788)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5cda18c8-962d-42e9-b204-a032c90c0d3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c078460-d0c6-49eb-8594-d93708687e41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.05 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "70894993-ff14-46d6-914f-15085872bc4a")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.05 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ae6e4a06-8048-47cd-8b47-8e870d38f5b9")
+	)
+	(model "${KIPRJMOD}/3dmodels/resistor-CRGH1206J82K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -12,7 +12,7 @@ A photovoltaic monitoring project combining an ESP32 measurement unit, a PHP/MyS
 - **Wi-Fi telemetry:** ESP32 measurements sent to the web application using HTTPS form requests.
 - **Web dashboard:** Spanish and English interfaces with charts and historical readings.
 - **Device management:** Devices grouped into matrices and measurement points.
-- **Hardware resources:** KiCad schematic and board layout, manufacturing outputs and a PCB assembly model.
+- **Hardware resources:** KiCad schematic, board layout, required custom libraries, manufacturing outputs and a PCB assembly model.
 - **Printable enclosure:** Separate STL files for the base and lid.
 
 ## 📁 Repository Structure
@@ -21,7 +21,7 @@ A photovoltaic monitoring project combining an ESP32 measurement unit, a PHP/MyS
 PV-Monitoring-System/
 ├── hardware/
 │   ├── bom/
-│   │   └── bill-of-materials.xlsx
+│   │   └── EMON_BOM.xlsx
 │   ├── cad/
 │   │   ├── enclosure-base.stl
 │   │   └── enclosure-lid.stl
@@ -52,7 +52,7 @@ Each component directory includes its own README with configuration and usage in
 
 ### 1. Prepare the Hardware
 
-1. Review the [Excel bill of materials](hardware/bom/bill-of-materials.xlsx).
+1. Review the [Excel bill of materials](hardware/bom/EMON_BOM.xlsx).
 2. Open the [KiCad project](hardware/pcb/kicad/README.md) and inspect the circuit and board layout.
 3. Review the [manufacturing files](hardware/pcb/gerber/README.md) before ordering a PCB.
 4. Inspect and print the [enclosure base and lid](hardware/cad/README.md), checking scale and fit against the board.
