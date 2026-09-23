@@ -147,7 +147,7 @@ The offset filter removes the DC component. Calibration and supported electrical
 - [Architecture and telemetry](docs/architecture.md)
 
 ## 📝 License
-This project is licensed under the Creative Commons Attribution 4.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution 4.0 License - see the [LICENSE](LICENSE.txt) file for details.
 
 The web application is distributed under its existing [GNU GPL version 3 license](software/webapp/LICENSE). Third-party libraries retain their own notices. Separate licensing terms for the hardware, firmware and documentation are not yet specified.
 
